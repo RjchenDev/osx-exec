@@ -11,8 +11,8 @@ main() {
     mv ./RobloxPlayer.app /Applications/Roblox.app
     rm ./RobloxPlayer.zip
 
-    echo -e "Downloading libHydrogen"
-    rm ./libHydrogen.dylib
+    echo -e "Downloading Dylib"
+    rm ./libMyDylib.dylib
     curl -LJO "https://github.com/retguard/legendary-couscous/raw/main/libHydrogen.dylib"
 
     rm ./insert_dylib
